@@ -1,0 +1,27 @@
+import 'package:CustomerFlutterapp/component/search-page/search-bar.dart';
+import 'package:CustomerFlutterapp/component/slider-ads-header-page/slide-imagebar.dart';
+import 'package:flutter/material.dart';
+
+class AdsImageBarPage extends StatelessWidget {
+  const AdsImageBarPage({
+    Key key,
+  }) : super(key: key);
+
+  @override
+  Widget build(BuildContext context) {
+    return Stack(
+      children: <Widget>[
+        Container(
+          height: 200,
+          color: Colors.white,
+          child: Center(
+            child: SlidImageBar(),
+          ),
+        ),
+        Center(
+          child: SearchBarPage(),
+        ),
+      ],
+    );
+  }
+}
