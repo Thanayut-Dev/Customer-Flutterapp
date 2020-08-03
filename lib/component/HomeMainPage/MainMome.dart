@@ -24,9 +24,8 @@ class _MainHomeState extends State<MainHome> with TickerProviderStateMixin {
       return MyHomePage();
     }
     if (position == 1) {
-      return Center(
-          // child: SearchPanel()
-          );
+      // return Center(
+      //     );
     }
     if (position == 2) {
       // return FavoriteList();
@@ -59,7 +58,6 @@ class _MainHomeState extends State<MainHome> with TickerProviderStateMixin {
         },
       ),
       body: current_page(currentPage),
-      // appBar: CustomAppBar(),
     );
   }
 }
