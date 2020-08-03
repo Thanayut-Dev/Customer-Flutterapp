@@ -200,7 +200,7 @@ Widget buttonIcon(BuildContext context) => Positioned(
                 child: Column(
                   children: <Widget>[
                     Image.asset(
-                      'assets/icons/Inbox-2.png',
+                      'assets/icons/Inbox-1.png',
                       height: 60,
                       width: 60,
                     ),
