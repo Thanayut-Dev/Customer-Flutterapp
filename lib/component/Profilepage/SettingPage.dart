@@ -81,7 +81,7 @@ Widget profile(BuildContext context) => Positioned(
                             crossAxisAlignment: CrossAxisAlignment.start,
                             children: <Widget>[
                               Text(
-                                "Paul Anderson",
+                                "Thanayut Phinsuwan",
                                 style: TextStyle(
                                     color: Colors.white,
                                     fontSize: 30.0,
