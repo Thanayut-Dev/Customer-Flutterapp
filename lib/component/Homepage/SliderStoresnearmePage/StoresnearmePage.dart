@@ -1,4 +1,4 @@
-import 'package:CustomerFlutterapp/component/slider-storesnearme-page/slider-storesnearme-shop.dart';
+import 'package:CustomerFlutterapp/component/Homepage/SliderStoresnearmePage/SliderStoresnearmeShop.dart';
 import 'package:flutter/material.dart';
 
 class StoresnearmePage extends StatelessWidget {

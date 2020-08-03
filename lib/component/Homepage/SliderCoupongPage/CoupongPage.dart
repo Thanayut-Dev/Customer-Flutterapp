@@ -1,4 +1,4 @@
-import 'package:CustomerFlutterapp/component/slider-coupong-page/slider-imagecoupong.dart';
+import 'package:CustomerFlutterapp/component/Homepage/SliderCoupongPage/SliderImageCoupong.dart';
 import 'package:flutter/material.dart';
 
 class CouPongPage extends StatelessWidget {

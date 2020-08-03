@@ -1,4 +1,4 @@
-import 'package:CustomerFlutterapp/component/slide-promotionproduct-page/slider-products.dart';
+import 'package:CustomerFlutterapp/component/Homepage/SlidePromotionProductPage/SliderProducts.dart';
 import 'package:flutter/material.dart';
 
 class ProductPage extends StatelessWidget {

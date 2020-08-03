@@ -1,4 +1,4 @@
-import 'package:CustomerFlutterapp/component/slider-topshop-page/slider-topshop.dart';
+import 'package:CustomerFlutterapp/component/Homepage/SliderTopshopPage/SliderTopshop.dart';
 import 'package:flutter/material.dart';
 
 class TopShopPage extends StatelessWidget {

@@ -1,5 +1,5 @@
-import 'package:CustomerFlutterapp/component/search-page/search-bar.dart';
-import 'package:CustomerFlutterapp/component/slider-ads-header-page/slide-imagebar.dart';
+import 'package:CustomerFlutterapp/component/Homepage/SearchPage/SearchBar.dart';
+import 'package:CustomerFlutterapp/component/Homepage/SliderAdsHeaderPage/SlideAdsImageBar.dart';
 import 'package:flutter/material.dart';
 
 class AdsImageBarPage extends StatelessWidget {

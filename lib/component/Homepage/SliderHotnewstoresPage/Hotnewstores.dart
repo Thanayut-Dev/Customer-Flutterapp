@@ -1,4 +1,4 @@
-import 'package:CustomerFlutterapp/component/slider-hotnewstores-page/slider-hotnewstores.dart';
+import 'package:CustomerFlutterapp/component/Homepage/SliderHotnewstoresPage/SliderHotnewstores.dart';
 import 'package:flutter/material.dart';
 
 class HotNewStoresPage extends StatelessWidget {

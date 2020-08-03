@@ -1,4 +1,4 @@
-import 'package:CustomerFlutterapp/component/slider-promotiom-page/slide-imagepromotion-content.dart';
+import 'package:CustomerFlutterapp/component/Homepage/SliderPromotiomPage/SlideImagePromotionContent.dart';
 import 'package:flutter/material.dart';
 
 class PromotionContentPage extends StatelessWidget {
