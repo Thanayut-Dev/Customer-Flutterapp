@@ -152,6 +152,19 @@ class _MyHomePageState extends State<MyHomePage> {
                 ),
               ),
               HotNewStoresPage(),
+              // Container(
+              //   decoration: BoxDecoration(
+              //       color: Theme.of(context).primaryColor,
+              //       borderRadius: BorderRadius.circular(10)),
+              //   padding: EdgeInsets.symmetric(vertical: 20, horizontal: 50),
+              //   child: Text(
+              //     '30',
+              //     style: TextStyle(color: Colors.white),
+              //   ),
+              // ),
+              Container(
+               height: 200,
+              ),
             ],
           ),
         ],

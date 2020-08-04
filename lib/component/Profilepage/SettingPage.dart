@@ -15,7 +15,7 @@ class _ProfilePageState extends State<ProfilePage> {
       body: Stack(
         children: <Widget>[
           profile(context),
-          buttonText(context),
+          // buttonText(context),
           buttonIcon(context),
         ],
       ),
@@ -34,9 +34,13 @@ Widget profile(BuildContext context) => Positioned(
               padding: EdgeInsets.only(top: 25.0, bottom: 80.0),
               decoration: BoxDecoration(
                 gradient: LinearGradient(
-                    begin: Alignment.topCenter,
-                    end: Alignment.bottomCenter,
-                    colors: [const Color(0xFF607ffb), const Color(0xFFa95afc)]),
+                  begin: Alignment.topCenter,
+                  end: Alignment.bottomCenter,
+                  colors: [
+                    const Color(0xFF607ffb),
+                    const Color(0xFFa95afc),
+                  ],
+                ),
               ),
               child: Center(
                 child: Column(
@@ -45,23 +49,23 @@ Widget profile(BuildContext context) => Positioned(
                     Row(
                       mainAxisAlignment: MainAxisAlignment.spaceBetween,
                       children: <Widget>[
-                        IconButton(
-                          icon: Icon(Icons.menu),
-                          color: Colors.white,
-                          onPressed: () {},
-                        ),
-                        Text(
-                          "Profile Users",
-                          style: TextStyle(
-                              color: Colors.white,
-                              fontFamily: 'ralewaymedium',
-                              fontSize: 18.0),
-                        ),
-                        IconButton(
-                          icon: Icon(Icons.arrow_forward),
-                          color: Colors.white,
-                          onPressed: () {},
-                        ),
+                        // IconButton(
+                        //   icon: Icon(Icons.menu),
+                        //   color: Colors.white,
+                        //   onPressed: () {},
+                        // ),
+                        // Text(
+                        //   "Profile Users",
+                        //   style: TextStyle(
+                        //       color: Colors.white,
+                        //       fontFamily: 'ralewaymedium',
+                        //       fontSize: 18.0),
+                        // ),
+                        // IconButton(
+                        //   icon: Icon(Icons.arrow_forward),
+                        //   color: Colors.white,
+                        //   onPressed: () {},
+                        // ),
                       ],
                     ),
                     SizedBox(
@@ -110,53 +114,53 @@ Widget profile(BuildContext context) => Positioned(
       ),
     );
 
-Widget buttonText(BuildContext context) => Positioned(
-      width: MediaQuery.of(context).size.width,
-      top: 260.0,
-      child: Padding(
-        padding: const EdgeInsets.only(left: 50.0, right: 50.0),
-        child: Container(
-          decoration: BoxDecoration(
-            borderRadius: BorderRadius.circular(5.0),
-            color: Colors.white,
-          ),
-          child: Padding(
-            padding: const EdgeInsets.only(
-                left: 15.0, right: 15.0, top: 15.0, bottom: 15.0),
-            child: Row(
-              mainAxisAlignment: MainAxisAlignment.spaceBetween,
-              children: <Widget>[
-                Text(
-                  "Profile",
-                  style: TextStyle(
-                      color: Colors.black,
-                      fontFamily: 'ralewaymedium',
-                      fontSize: 16.0),
-                ),
-                Text(
-                  "Account",
-                  style: TextStyle(
-                      color: Colors.black,
-                      fontFamily: 'ralewaymedium',
-                      fontSize: 16.0),
-                ),
-                Text(
-                  "Settings",
-                  style: TextStyle(
-                      color: Colors.black,
-                      fontFamily: 'ralewaymedium',
-                      fontSize: 16.0),
-                ),
-              ],
-            ),
-          ),
-        ),
-      ),
-    );
+// Widget buttonText(BuildContext context) => Positioned(
+//       width: MediaQuery.of(context).size.width,
+//       top: 200.0,
+//       child: Padding(
+//         padding: const EdgeInsets.only(left: 50.0, right: 50.0),
+//         child: Container(
+//           decoration: BoxDecoration(
+//             borderRadius: BorderRadius.circular(5.0),
+//             color: Colors.white,
+//           ),
+//           child: Padding(
+//             padding: const EdgeInsets.only(
+//                 left: 15.0, right: 15.0, top: 15.0, bottom: 15.0),
+//             child: Row(
+//               mainAxisAlignment: MainAxisAlignment.spaceBetween,
+//               children: <Widget>[
+//                 Text(
+//                   "Profile",
+//                   style: TextStyle(
+//                       color: Colors.black,
+//                       fontFamily: 'ralewaymedium',
+//                       fontSize: 16.0),
+//                 ),
+//                 Text(
+//                   "Account",
+//                   style: TextStyle(
+//                       color: Colors.black,
+//                       fontFamily: 'ralewaymedium',
+//                       fontSize: 16.0),
+//                 ),
+//                 Text(
+//                   "Settings",
+//                   style: TextStyle(
+//                       color: Colors.black,
+//                       fontFamily: 'ralewaymedium',
+//                       fontSize: 16.0),
+//                 ),
+//               ],
+//             ),
+//           ),
+//         ),
+//       ),
+//     );
 
 Widget buttonIcon(BuildContext context) => Positioned(
       width: MediaQuery.of(context).size.width,
-      top: 350.0,
+      top: 260.0,
       child: Padding(
         padding: const EdgeInsets.only(left: 20.0, right: 20.0),
         child: Container(
@@ -204,7 +208,7 @@ Widget buttonIcon(BuildContext context) => Positioned(
                       height: 60,
                       width: 60,
                     ),
-                    Text("Inbox")
+                    Text("Queue")
                   ],
                 ),
               ),
