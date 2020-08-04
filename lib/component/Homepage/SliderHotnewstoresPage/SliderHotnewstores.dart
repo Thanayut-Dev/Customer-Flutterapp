@@ -22,7 +22,7 @@ class SlideHotNewStoresPage extends StatelessWidget {
                 child: Row(
                   children: <Widget>[
                     Padding(
-                      padding: const EdgeInsets.only(top: 110.0),
+                      padding: const EdgeInsets.only(top: 110.0, left: 5.0),
                       child: Container(
                         child: Text(
                           mocksup[index].title,

@@ -9,7 +9,7 @@ class TopShopPage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Container(
-      height: 160,
+      height: 170,
       color: Colors.white,
       child: SlideTopShop(),
     );
