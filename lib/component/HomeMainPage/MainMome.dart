@@ -3,12 +3,12 @@ import 'package:CustomerFlutterapp/component/Profilepage/SettingPage.dart';
 import 'package:fancy_bottom_navigation/fancy_bottom_navigation.dart';
 import 'package:flutter/material.dart';
 
-class MainHome extends StatefulWidget {
+class HomeMainPage extends StatefulWidget {
   @override
-  _MainHomeState createState() => _MainHomeState();
+  _HomeMainPageState createState() => _HomeMainPageState();
 }
 
-class _MainHomeState extends State<MainHome> with TickerProviderStateMixin {
+class _HomeMainPageState extends State<HomeMainPage> with TickerProviderStateMixin {
   int currentPage = 0;
   Color primaryColor;
 
@@ -19,7 +19,7 @@ class _MainHomeState extends State<MainHome> with TickerProviderStateMixin {
     super.initState();
   }
 
-  Widget current_page(position) {
+  Widget currentpage(position) {
     if (position == 0) {
       return MyHomePage();
     }
@@ -57,7 +57,7 @@ class _MainHomeState extends State<MainHome> with TickerProviderStateMixin {
           });
         },
       ),
-      body: current_page(currentPage),
+      body: currentpage(currentPage),
     );
   }
 }
