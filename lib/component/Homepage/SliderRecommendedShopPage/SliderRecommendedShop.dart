@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
-class SlideStoresnearmeShop extends StatelessWidget {
-  const SlideStoresnearmeShop({
+class SliderRecommendedShop extends StatelessWidget {
+  const SliderRecommendedShop({
     Key key,
   }) : super(key: key);
 
@@ -24,7 +24,7 @@ class SlideStoresnearmeShop extends StatelessWidget {
     //             ),
     //           ),
     //           child: Padding(
-    //             padding: const EdgeInsets.only(left: 5.0, bottom: 15.0),
+    //             padding: const EdgeInsets.only(left: 5.0 ,bottom: 15.0),
     //             child: Image.asset(
     //               mocksup[index].imageAssets,
     //               cacheHeight: 200,
@@ -52,7 +52,7 @@ class SlideStoresnearmeShop extends StatelessWidget {
                 child: Row(
                   children: <Widget>[
                     Padding(
-                      padding: const EdgeInsets.only(top: 90.0, left: 5.0),
+                      padding: const EdgeInsets.only(top: 75.0, left: 5.0),
                       child: Container(
                         child: Text(
                           mocksup[index].title,
@@ -81,8 +81,8 @@ class SlideStoresnearmeShop extends StatelessWidget {
                               borderRadius: BorderRadius.circular(5),
                             ),
                             padding: EdgeInsets.symmetric(
-                              vertical: 2,
-                              horizontal: 5,
+                              vertical: 3,
+                              horizontal: 7,
                             ),
                             child: Row(
                               children: <Widget>[
@@ -90,7 +90,6 @@ class SlideStoresnearmeShop extends StatelessWidget {
                                   mocksup[index].rating,
                                   style: TextStyle(
                                     color: Colors.white,
-                                    fontSize: 12,
                                   ),
                                 ),
                                 Padding(
@@ -126,15 +125,15 @@ class SlideStoresnearmeShop extends StatelessWidget {
                         children: <Widget>[
                           Container(
                             margin:
-                                const EdgeInsets.only(top: 2.0, bottom: 1.0),
+                                const EdgeInsets.only(top: 2.0, bottom: 2.0),
                             decoration: BoxDecoration(
                               // color: Theme.of(context).primaryColor,
                               color: Colors.orange[900],
                               borderRadius: BorderRadius.circular(5),
                             ),
                             padding: EdgeInsets.symmetric(
-                              vertical: 2,
-                              horizontal: 5,
+                              vertical: 3,
+                              horizontal: 7,
                             ),
                             child: Row(
                               children: <Widget>[
@@ -142,7 +141,6 @@ class SlideStoresnearmeShop extends StatelessWidget {
                                   mocksup[index].rating,
                                   style: TextStyle(
                                     color: Colors.white,
-                                    fontSize: 12,
                                   ),
                                 ),
                                 Padding(
@@ -210,14 +208,14 @@ List<Mocksup> mocksup = const <Mocksup>[
       imageAssets: 'assets/images/img-services/shop-image/shop-2.jpg'),
   const Mocksup(
       title: 'ร้านค้า3',
-      rating: '4.0',
-      imageAssets: 'assets/images/img-services/shop-image/shop-3.jpg'),
+      rating: '2.0',
+      imageAssets: 'assets/images/img-services/shop-image/shop-5.jpg'),
   const Mocksup(
       title: 'ร้านค้า4',
-      rating: '4.5',
-      imageAssets: 'assets/images/img-services/shop-image/shop-4.jpg'),
+      rating: '4.0',
+      imageAssets: 'assets/images/img-services/shop-image/shop-6.jpg'),
   const Mocksup(
       title: 'ร้านค้า5',
-      rating: '2.5',
-      imageAssets: 'assets/images/img-services/shop-image/shop-5.jpg'),
+      rating: '3.5',
+      imageAssets: 'assets/images/img-services/shop-image/shop-8.jpg'),
 ];

@@ -52,7 +52,7 @@ class SlideTopShop extends StatelessWidget {
                 child: Row(
                   children: <Widget>[
                     Padding(
-                      padding: const EdgeInsets.only(top: 85.0,left: 5.0),
+                      padding: const EdgeInsets.only(top: 75.0, left: 5.0),
                       child: Container(
                         child: Text(
                           mocksup[index].title,
@@ -76,12 +76,13 @@ class SlideTopShop extends StatelessWidget {
                         children: <Widget>[
                           Container(
                             decoration: BoxDecoration(
-                              color: Theme.of(context).primaryColor,
-                              borderRadius: BorderRadius.circular(10),
+                              // color: Theme.of(context).primaryColor,
+                              color: Colors.orange[900],
+                              borderRadius: BorderRadius.circular(5),
                             ),
                             padding: EdgeInsets.symmetric(
-                              vertical: 0,
-                              horizontal: 5,
+                              vertical: 3,
+                              horizontal: 7,
                             ),
                             child: Row(
                               children: <Widget>[
@@ -92,10 +93,11 @@ class SlideTopShop extends StatelessWidget {
                                   ),
                                 ),
                                 Padding(
-                                  padding: const EdgeInsets.only(bottom: 3.0),
+                                  padding: const EdgeInsets.only(bottom: 0.0),
                                   child: Icon(
                                     Icons.star,
                                     color: Colors.white,
+                                    size: 15.0,
                                   ),
                                 ),
                               ],
@@ -125,12 +127,13 @@ class SlideTopShop extends StatelessWidget {
                             margin:
                                 const EdgeInsets.only(top: 2.0, bottom: 2.0),
                             decoration: BoxDecoration(
-                              color: Theme.of(context).primaryColor,
-                              borderRadius: BorderRadius.circular(10),
+                              // color: Theme.of(context).primaryColor,
+                              color: Colors.orange[900],
+                              borderRadius: BorderRadius.circular(5),
                             ),
                             padding: EdgeInsets.symmetric(
-                              vertical: 0,
-                              horizontal: 5,
+                              vertical: 3,
+                              horizontal: 7,
                             ),
                             child: Row(
                               children: <Widget>[
@@ -141,10 +144,11 @@ class SlideTopShop extends StatelessWidget {
                                   ),
                                 ),
                                 Padding(
-                                  padding: const EdgeInsets.only(bottom: 3.0),
+                                  padding: const EdgeInsets.only(bottom: 0.0),
                                   child: Icon(
                                     Icons.star,
                                     color: Colors.white,
+                                    size: 15.0,
                                   ),
                                 ),
                               ],

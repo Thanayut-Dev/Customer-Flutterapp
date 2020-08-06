@@ -22,13 +22,13 @@ class SlideHotNewStoresPage extends StatelessWidget {
                 child: Row(
                   children: <Widget>[
                     Padding(
-                      padding: const EdgeInsets.only(top: 110.0, left: 5.0),
+                      padding: const EdgeInsets.only(top: 58.0, left: 5.0),
                       child: Container(
                         child: Text(
                           mocksup[index].title,
                           style: TextStyle(
                             color: Colors.white,
-                            fontSize: 18,
+                            fontSize: 16,
                             fontWeight: FontWeight.bold,
                           ),
                         ),
@@ -46,12 +46,13 @@ class SlideHotNewStoresPage extends StatelessWidget {
                         children: <Widget>[
                           Container(
                             decoration: BoxDecoration(
-                              color: Theme.of(context).primaryColor,
-                              borderRadius: BorderRadius.circular(10),
+                              // color: Theme.of(context).primaryColor,
+                              color: Colors.orange[900],
+                              borderRadius: BorderRadius.circular(5),
                             ),
                             padding: EdgeInsets.symmetric(
-                              vertical: 0,
-                              horizontal: 5,
+                              vertical: 1,
+                              horizontal: 4,
                             ),
                             child: Row(
                               children: <Widget>[
@@ -62,10 +63,11 @@ class SlideHotNewStoresPage extends StatelessWidget {
                                   ),
                                 ),
                                 Padding(
-                                  padding: const EdgeInsets.only(bottom: 3.0),
+                                  padding: const EdgeInsets.only(bottom: 0.0),
                                   child: Icon(
                                     Icons.star,
                                     color: Colors.white,
+                                    size: 15.0,
                                   ),
                                 ),
                               ],
@@ -93,14 +95,15 @@ class SlideHotNewStoresPage extends StatelessWidget {
                         children: <Widget>[
                           Container(
                             margin:
-                                const EdgeInsets.only(top: 2.0, bottom: 5.0),
+                                const EdgeInsets.only(top: 2.0, bottom: 1.0),
                             decoration: BoxDecoration(
-                              color: Theme.of(context).primaryColor,
-                              borderRadius: BorderRadius.circular(10),
+                              // color: Theme.of(context).primaryColor,
+                              color: Colors.orange[900],
+                              borderRadius: BorderRadius.circular(5),
                             ),
                             padding: EdgeInsets.symmetric(
-                              vertical: 0,
-                              horizontal: 5,
+                              vertical: 1,
+                              horizontal: 4,
                             ),
                             child: Row(
                               children: <Widget>[
@@ -111,10 +114,11 @@ class SlideHotNewStoresPage extends StatelessWidget {
                                   ),
                                 ),
                                 Padding(
-                                  padding: const EdgeInsets.only(bottom: 3.0),
+                                  padding: const EdgeInsets.only(bottom: 0.0),
                                   child: Icon(
                                     Icons.star,
                                     color: Colors.white,
+                                    size: 15.0,
                                   ),
                                 ),
                               ],

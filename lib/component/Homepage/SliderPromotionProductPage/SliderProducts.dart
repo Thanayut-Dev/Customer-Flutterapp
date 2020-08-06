@@ -57,12 +57,13 @@ class SlidePromotionProduct extends StatelessWidget {
                         children: <Widget>[
                           Container(
                             decoration: BoxDecoration(
-                              color: Theme.of(context).primaryColor,
-                              borderRadius: BorderRadius.circular(10),
+                              // color: Theme.of(context).primaryColor,
+                              color: Colors.orange[900],
+                              borderRadius: BorderRadius.circular(5),
                             ),
                             padding: EdgeInsets.symmetric(
-                              vertical: 5,
-                              horizontal: 10,
+                              vertical: 3,
+                              horizontal: 3,
                             ),
                             child: Row(
                               children: <Widget>[
@@ -82,7 +83,18 @@ class SlidePromotionProduct extends StatelessWidget {
                   ],
                 ),
               ),
-              footer: Center(
+              footer: Container(
+                height: 100 / 2,
+                decoration: BoxDecoration(
+                  gradient: LinearGradient(
+                    begin: Alignment.topCenter,
+                    end: Alignment.bottomCenter,
+                    colors: [
+                      Colors.transparent,
+                      Color.fromARGB(200, 200, 200, 200),
+                    ],
+                  ),
+                ),
                 child: Column(
                   children: <Widget>[
                     Row(
@@ -93,8 +105,8 @@ class SlidePromotionProduct extends StatelessWidget {
                             child: Text(
                               mocksup[index].title,
                               style: TextStyle(
-                                color: Colors.amber[800],
-                                fontSize: 20,
+                                color: Colors.white,
+                                fontSize: 16,
                                 fontWeight: FontWeight.bold,
                               ),
                             ),
@@ -106,26 +118,27 @@ class SlidePromotionProduct extends StatelessWidget {
                       children: <Widget>[
                         Padding(
                           padding:
-                              const EdgeInsets.only(left: 5.0, right: 30.0),
+                              const EdgeInsets.only(left: 5.0, right: 5.0),
                           child: Container(
                             child: Text(
                               "ราคา",
                               style: TextStyle(
-                                color: Colors.orange[800],
-                                fontSize: 20,
+                                color: Colors.white,
+                                fontSize: 16,
                                 fontWeight: FontWeight.bold,
                               ),
                             ),
                           ),
                         ),
                         Padding(
-                          padding: const EdgeInsets.only(left: 5.0),
+                          padding: const EdgeInsets.only(left: 10.0),
                           child: Container(
                             child: Text(
                               mocksup[index].price,
                               style: TextStyle(
-                                color: Colors.orange[800],
-                                fontSize: 22,
+                                // color: Colors.white,
+                                color: Colors.orange[900],
+                                fontSize: 18,
                                 fontWeight: FontWeight.bold,
                               ),
                             ),
@@ -165,16 +178,16 @@ List<Mocksup> mocksup = const <Mocksup>[
   const Mocksup(
       title: 'สินค้า1',
       price: '฿2,590',
-      discount: 'ส่วนลด 50%',
+      discount: 'ลด 50%',
       imageAssets: 'assets/images/img-services/product-image/product-1.jpg'),
   const Mocksup(
       title: 'สินค้า2',
       price: '฿2,590',
-      discount: 'ส่วนลด 30%',
+      discount: 'ลด 30%',
       imageAssets: 'assets/images/img-services/product-image/product-2.jpg'),
   const Mocksup(
       title: 'สินค้า3',
       price: '฿2,590',
-      discount: 'ส่วนลด 570%',
+      discount: 'ลด 70%',
       imageAssets: 'assets/images/img-services/product-image/product-3.jpg'),
 ];

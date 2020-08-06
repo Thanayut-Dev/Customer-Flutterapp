@@ -1,4 +1,4 @@
-import 'package:CustomerFlutterapp/component/Homepage/SlidePromotionProductPage/SliderProducts.dart';
+import 'package:CustomerFlutterapp/component/Homepage/SliderPromotionProductPage/SliderProducts.dart';
 import 'package:flutter/material.dart';
 
 class ProductPage extends StatelessWidget {
@@ -9,7 +9,7 @@ class ProductPage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Container(
-      height: 170,
+      height: 130,
       color: Colors.white,
       child: SlidePromotionProduct(),
     );

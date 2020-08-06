@@ -1,9 +1,12 @@
 import 'package:CustomerFlutterapp/component/Homepage/CategoryPage/category.dart';
-import 'package:CustomerFlutterapp/component/Homepage/SlidePromotionProductPage/PromotionProducts.dart';
 import 'package:CustomerFlutterapp/component/Homepage/SliderAdsHeaderPage/AdsPage.dart';
+import 'package:CustomerFlutterapp/component/Homepage/SliderBrandPage/BrandPage.dart';
 import 'package:CustomerFlutterapp/component/Homepage/SliderCoupongPage/CoupongPage.dart';
 import 'package:CustomerFlutterapp/component/Homepage/SliderHotnewstoresPage/hotnewstores.dart';
 import 'package:CustomerFlutterapp/component/Homepage/SliderPromotiomPage/PromotionContentPage.dart';
+import 'package:CustomerFlutterapp/component/Homepage/SliderPromotionProductPage/PromotionProducts.dart';
+import 'package:CustomerFlutterapp/component/Homepage/SliderRecommendedShopPage/RecommendedShop.dart';
+import 'package:CustomerFlutterapp/component/Homepage/SliderReviewPage/Review.dart';
 import 'package:CustomerFlutterapp/component/Homepage/SliderStoresnearmePage/StoresnearmePage.dart';
 import 'package:CustomerFlutterapp/component/Homepage/SliderTopshopPage/TopshopPage.dart';
 import 'package:flutter/material.dart';
@@ -41,7 +44,7 @@ class _MyHomePageState extends State<MyHomePage> {
                   child: Column(
                     children: <Widget>[
                       Padding(
-                        padding: const EdgeInsets.only(top: 15, right: 130.0),
+                        padding: const EdgeInsets.only(top: 15, right: 145.0),
                         child: Text(
                           "ส่วนลด(ร้านที่ร่วมรายการ)",
                           style: TextStyle(
@@ -63,7 +66,7 @@ class _MyHomePageState extends State<MyHomePage> {
                   child: Column(
                     children: <Widget>[
                       Padding(
-                        padding: const EdgeInsets.only(top: 10, right: 180.0),
+                        padding: const EdgeInsets.only(top: 10, right: 195.0),
                         child: Text(
                           "แนะนำร้านและสินค้า",
                           style: TextStyle(
@@ -86,7 +89,7 @@ class _MyHomePageState extends State<MyHomePage> {
                   child: Column(
                     children: <Widget>[
                       Padding(
-                        padding: const EdgeInsets.only(top: 10, right: 250.0),
+                        padding: const EdgeInsets.only(top: 10, right: 265.0),
                         child: Text(
                           "ร้านที่ใกล้ฉัน",
                           style: TextStyle(
@@ -111,7 +114,33 @@ class _MyHomePageState extends State<MyHomePage> {
                   child: Column(
                     children: <Widget>[
                       Padding(
-                        padding: const EdgeInsets.only(top: 10, right: 240.0),
+                        padding: const EdgeInsets.only(top: 10, right: 265.0),
+                        child: Text(
+                          "ร้านยอดนิยม",
+                          style: TextStyle(
+                            fontSize: 22,
+                            color: Colors.black,
+                            // fontWeight: FontWeight.bold,
+                          ),
+                        ),
+                      ),
+                    ],
+                  ),
+                ),
+              ),
+              HotNewStoresPage(),
+              SizedBox(
+                height: 5,
+              ),
+              PromotionContentPage(),
+              Container(
+                height: 50,
+                color: Colors.white,
+                child: Center(
+                  child: Column(
+                    children: <Widget>[
+                      Padding(
+                        padding: const EdgeInsets.only(top: 10, right: 250.0),
                         child: Text(
                           "ร้านใหม่มาแรง",
                           style: TextStyle(
@@ -127,7 +156,7 @@ class _MyHomePageState extends State<MyHomePage> {
               ),
               TopShopPage(),
               SizedBox(
-                height: 10,
+                height: 5,
               ),
               PromotionContentPage(),
               Container(
@@ -137,9 +166,9 @@ class _MyHomePageState extends State<MyHomePage> {
                   child: Column(
                     children: <Widget>[
                       Padding(
-                        padding: const EdgeInsets.only(top: 10, right: 250.0),
+                        padding: const EdgeInsets.only(top: 10, right: 285.0),
                         child: Text(
-                          "ร้านยอดนิยม",
+                          "ร้านแนะนำ",
                           style: TextStyle(
                             fontSize: 22,
                             color: Colors.black,
@@ -151,7 +180,7 @@ class _MyHomePageState extends State<MyHomePage> {
                   ),
                 ),
               ),
-              HotNewStoresPage(),
+              RecommendedShopPage(),
               // Container(
               //   decoration: BoxDecoration(
               //       color: Theme.of(context).primaryColor,
@@ -163,7 +192,51 @@ class _MyHomePageState extends State<MyHomePage> {
               //   ),
               // ),
               Container(
-               height: 200,
+                height: 50,
+                color: Colors.white,
+                child: Center(
+                  child: Column(
+                    children: <Widget>[
+                      Padding(
+                        padding: const EdgeInsets.only(top: 10, right: 250.0),
+                        child: Text(
+                          "รีวิวจากสมาชิก",
+                          style: TextStyle(
+                            fontSize: 22,
+                            color: Colors.black,
+                            // fontWeight: FontWeight.bold,
+                          ),
+                        ),
+                      ),
+                    ],
+                  ),
+                ),
+              ),
+              ReviewPage(),
+              Container(
+                height: 50,
+                color: Colors.white,
+                child: Center(
+                  child: Column(
+                    children: <Widget>[
+                      Padding(
+                        padding: const EdgeInsets.only(top: 10, right: 255.0),
+                        child: Text(
+                          "แบรนด์แนะนำ",
+                          style: TextStyle(
+                            fontSize: 22,
+                            color: Colors.black,
+                            // fontWeight: FontWeight.bold,
+                          ),
+                        ),
+                      ),
+                    ],
+                  ),
+                ),
+              ),
+              BrandPage(),
+              Container(
+                height: 200,
               ),
             ],
           ),

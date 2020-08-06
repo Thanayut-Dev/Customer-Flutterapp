@@ -10,7 +10,7 @@ class SlidImagePromotionContent extends StatefulWidget {
 
 class _SlidImagePromotionContentState extends State<SlidImagePromotionContent> {
   final List<String> images = [
-    'assets/images/img-services/promotion/promotion-2.jpg',
+    'assets/images/img-services/promotion/promotion-7.jpg',
     'assets/images/img-services/promotion/promotion-1.jpg',
     'assets/images/img-services/promotion/promotion-4.jpg',
     'assets/images/img-services/promotion/promotion-6.jpg',
