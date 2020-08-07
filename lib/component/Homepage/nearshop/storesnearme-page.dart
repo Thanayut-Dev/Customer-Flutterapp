@@ -1,8 +1,8 @@
-import 'package:CustomerFlutterapp/component/Homepage/SliderTopshopPage/SliderTopshop.dart';
+import 'package:CustomerFlutterapp/component/Homepage/nearshop/slider-storesnearme-shop.dart';
 import 'package:flutter/material.dart';
 
-class TopShopPage extends StatelessWidget {
-  const TopShopPage({
+class Test extends StatelessWidget {
+  const Test({
     Key key,
   }) : super(key: key);
 
@@ -11,7 +11,7 @@ class TopShopPage extends StatelessWidget {
     return Container(
       height: 200,
       color: Colors.white,
-      child: SlideTopShop(),
+      child: NearShop(),
     );
   }
 }

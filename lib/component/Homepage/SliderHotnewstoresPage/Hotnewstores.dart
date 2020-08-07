@@ -9,7 +9,7 @@ class HotNewStoresPage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Container(
-      height: 120,
+      height: 160,
       color: Colors.white,
       child: SlideHotNewStoresPage(),
     );

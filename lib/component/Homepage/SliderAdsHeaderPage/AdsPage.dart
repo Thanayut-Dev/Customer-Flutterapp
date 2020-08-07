@@ -12,7 +12,7 @@ class AdsImageBarPage extends StatelessWidget {
     return Stack(
       children: <Widget>[
         Container(
-          height: 200,
+          height: 188,
           color: Colors.white,
           child: Center(
             child: SlidImageBar(),

@@ -9,6 +9,7 @@ import 'package:CustomerFlutterapp/component/Homepage/SliderRecommendedShopPage/
 import 'package:CustomerFlutterapp/component/Homepage/SliderReviewPage/Review.dart';
 import 'package:CustomerFlutterapp/component/Homepage/SliderStoresnearmePage/StoresnearmePage.dart';
 import 'package:CustomerFlutterapp/component/Homepage/SliderTopshopPage/TopshopPage.dart';
+import 'package:CustomerFlutterapp/component/Homepage/nearshop/storesnearme-page.dart';
 import 'package:flutter/material.dart';
 
 class MyHomePage extends StatefulWidget {
@@ -44,11 +45,11 @@ class _MyHomePageState extends State<MyHomePage> {
                   child: Column(
                     children: <Widget>[
                       Padding(
-                        padding: const EdgeInsets.only(top: 15, right: 145.0),
+                        padding: const EdgeInsets.only(top: 20, right: 145.0),
                         child: Text(
                           "ส่วนลด(ร้านที่ร่วมรายการ)",
                           style: TextStyle(
-                            fontSize: 22,
+                            fontSize: 20,
                             color: Colors.black,
                             // fontWeight: FontWeight.bold,
                           ),
@@ -70,7 +71,7 @@ class _MyHomePageState extends State<MyHomePage> {
                         child: Text(
                           "แนะนำร้านและสินค้า",
                           style: TextStyle(
-                            fontSize: 22,
+                            fontSize: 20,
                             color: Colors.black,
                             // fontWeight: FontWeight.bold,
                           ),
@@ -81,6 +82,9 @@ class _MyHomePageState extends State<MyHomePage> {
                 ),
               ),
               PromotionContentPage(),
+              SizedBox(
+                height: 5,
+              ),
               ProductPage(),
               Container(
                 height: 50,
@@ -93,7 +97,7 @@ class _MyHomePageState extends State<MyHomePage> {
                         child: Text(
                           "ร้านที่ใกล้ฉัน",
                           style: TextStyle(
-                            fontSize: 22,
+                            fontSize: 20,
                             color: Colors.black,
                             // fontWeight: FontWeight.bold,
                           ),
@@ -118,7 +122,7 @@ class _MyHomePageState extends State<MyHomePage> {
                         child: Text(
                           "ร้านยอดนิยม",
                           style: TextStyle(
-                            fontSize: 22,
+                            fontSize: 20,
                             color: Colors.black,
                             // fontWeight: FontWeight.bold,
                           ),
@@ -144,7 +148,7 @@ class _MyHomePageState extends State<MyHomePage> {
                         child: Text(
                           "ร้านใหม่มาแรง",
                           style: TextStyle(
-                            fontSize: 22,
+                            fontSize: 20,
                             color: Colors.black,
                             // fontWeight: FontWeight.bold,
                           ),
@@ -170,7 +174,7 @@ class _MyHomePageState extends State<MyHomePage> {
                         child: Text(
                           "ร้านแนะนำ",
                           style: TextStyle(
-                            fontSize: 22,
+                            fontSize: 20,
                             color: Colors.black,
                             // fontWeight: FontWeight.bold,
                           ),
@@ -202,7 +206,7 @@ class _MyHomePageState extends State<MyHomePage> {
                         child: Text(
                           "รีวิวจากสมาชิก",
                           style: TextStyle(
-                            fontSize: 22,
+                            fontSize: 20,
                             color: Colors.black,
                             // fontWeight: FontWeight.bold,
                           ),
@@ -224,7 +228,7 @@ class _MyHomePageState extends State<MyHomePage> {
                         child: Text(
                           "แบรนด์แนะนำ",
                           style: TextStyle(
-                            fontSize: 22,
+                            fontSize: 20,
                             color: Colors.black,
                             // fontWeight: FontWeight.bold,
                           ),
@@ -235,6 +239,7 @@ class _MyHomePageState extends State<MyHomePage> {
                 ),
               ),
               BrandPage(),
+              Test(),
               Container(
                 height: 200,
               ),

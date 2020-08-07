@@ -7,7 +7,7 @@ class PromotionContentPage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Container(
-      height: 180,
+      height: 170,
       color: Colors.white,
       child: SlidImagePromotionContent(),
     );
