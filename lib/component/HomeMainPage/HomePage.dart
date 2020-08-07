@@ -239,7 +239,7 @@ class _MyHomePageState extends State<MyHomePage> {
                 ),
               ),
               BrandPage(),
-              // Test(),
+              Test(),
               Container(
                 height: 200,
               ),
