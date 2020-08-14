@@ -30,6 +30,9 @@ dependencies:
   carousel_slider: ^2.2.1
   font_awesome_flutter: ^8.8.1
   fancy_bottom_navigation: ^0.3.2
+  provider: ^3.0.0+1
+  get_it: ^1.0.3+2
+  smooth_star_rating: ^1.0.3
 
 dev_dependencies:
   flutter_test:

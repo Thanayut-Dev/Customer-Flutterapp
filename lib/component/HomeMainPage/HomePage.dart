@@ -45,16 +45,31 @@ class _MyHomePageState extends State<MyHomePage> {
                   child: Column(
                     children: <Widget>[
                       Padding(
-                        padding: const EdgeInsets.only(top: 20, right: 145.0),
-                        child: Text(
-                          "ส่วนลด(ร้านที่ร่วมรายการ)",
-                          style: TextStyle(
-                            fontSize: 20,
-                            color: Colors.black,
-                            // fontWeight: FontWeight.bold,
-                          ),
+                        padding: const EdgeInsets.only(top: 20.0, left: 5.0),
+                        child: Row(
+                          children: [
+                            Text(
+                              "ส่วนลด(ร้านที่ร่วมรายการ)",
+                              style: TextStyle(
+                                fontSize: 20,
+                                color: Colors.black,
+                                // fontWeight: FontWeight.bold,
+                              ),
+                            ),
+                          ],
                         ),
                       ),
+                      // Padding(
+                      //   padding: const EdgeInsets.only(top: 20, right: 145.0),
+                      //   child: Text(
+                      //     "ส่วนลด(ร้านที่ร่วมรายการ)",
+                      //     style: TextStyle(
+                      //       fontSize: 20,
+                      //       color: Colors.black,
+                      //       // fontWeight: FontWeight.bold,
+                      //     ),
+                      //   ),
+                      // ),
                     ],
                   ),
                 ),
@@ -67,16 +82,31 @@ class _MyHomePageState extends State<MyHomePage> {
                   child: Column(
                     children: <Widget>[
                       Padding(
-                        padding: const EdgeInsets.only(top: 10, right: 195.0),
-                        child: Text(
-                          "แนะนำร้านและสินค้า",
-                          style: TextStyle(
-                            fontSize: 20,
-                            color: Colors.black,
-                            // fontWeight: FontWeight.bold,
-                          ),
+                        padding: const EdgeInsets.only(top: 20.0, left: 5.0),
+                        child: Row(
+                          children: [
+                            Text(
+                              "แนะนำร้านและสินค้า",
+                              style: TextStyle(
+                                fontSize: 20,
+                                color: Colors.black,
+                                // fontWeight: FontWeight.bold,
+                              ),
+                            ),
+                          ],
                         ),
                       ),
+                      // Padding(
+                      //   padding: const EdgeInsets.only(top: 10, right: 195.0),
+                      //   child: Text(
+                      //     "แนะนำร้านและสินค้า",
+                      //     style: TextStyle(
+                      //       fontSize: 20,
+                      //       color: Colors.black,
+                      //       // fontWeight: FontWeight.bold,
+                      //     ),
+                      //   ),
+                      // ),
                     ],
                   ),
                 ),
@@ -93,16 +123,31 @@ class _MyHomePageState extends State<MyHomePage> {
                   child: Column(
                     children: <Widget>[
                       Padding(
-                        padding: const EdgeInsets.only(top: 10, right: 265.0),
-                        child: Text(
-                          "ร้านที่ใกล้ฉัน",
-                          style: TextStyle(
-                            fontSize: 20,
-                            color: Colors.black,
-                            // fontWeight: FontWeight.bold,
-                          ),
+                        padding: const EdgeInsets.only(top: 20.0, left: 5.0),
+                        child: Row(
+                          children: [
+                            Text(
+                              "ร้านที่ใกล้ฉัน",
+                              style: TextStyle(
+                                fontSize: 20,
+                                color: Colors.black,
+                                // fontWeight: FontWeight.bold,
+                              ),
+                            ),
+                          ],
                         ),
                       ),
+                      // Padding(
+                      //   padding: const EdgeInsets.only(top: 10, right: 265.0),
+                      //   child: Text(
+                      //     "ร้านที่ใกล้ฉัน",
+                      //     style: TextStyle(
+                      //       fontSize: 20,
+                      //       color: Colors.black,
+                      //       // fontWeight: FontWeight.bold,
+                      //     ),
+                      //   ),
+                      // ),
                     ],
                   ),
                 ),
@@ -118,16 +163,31 @@ class _MyHomePageState extends State<MyHomePage> {
                   child: Column(
                     children: <Widget>[
                       Padding(
-                        padding: const EdgeInsets.only(top: 10, right: 265.0),
-                        child: Text(
-                          "ร้านยอดนิยม",
-                          style: TextStyle(
-                            fontSize: 20,
-                            color: Colors.black,
-                            // fontWeight: FontWeight.bold,
-                          ),
+                        padding: const EdgeInsets.only(top: 20.0, left: 5.0),
+                        child: Row(
+                          children: [
+                            Text(
+                              "ร้านยอดนิยม",
+                              style: TextStyle(
+                                fontSize: 20,
+                                color: Colors.black,
+                                // fontWeight: FontWeight.bold,
+                              ),
+                            ),
+                          ],
                         ),
                       ),
+                      // Padding(
+                      //   padding: const EdgeInsets.only(top: 10, right: 265.0),
+                      //   child: Text(
+                      //     "ร้านยอดนิยม",
+                      //     style: TextStyle(
+                      //       fontSize: 20,
+                      //       color: Colors.black,
+                      //       // fontWeight: FontWeight.bold,
+                      //     ),
+                      //   ),
+                      // ),
                     ],
                   ),
                 ),
@@ -144,16 +204,31 @@ class _MyHomePageState extends State<MyHomePage> {
                   child: Column(
                     children: <Widget>[
                       Padding(
-                        padding: const EdgeInsets.only(top: 10, right: 250.0),
-                        child: Text(
-                          "ร้านใหม่มาแรง",
-                          style: TextStyle(
-                            fontSize: 20,
-                            color: Colors.black,
-                            // fontWeight: FontWeight.bold,
-                          ),
+                        padding: const EdgeInsets.only(top: 20.0, left: 5.0),
+                        child: Row(
+                          children: [
+                            Text(
+                              "ร้านใหม่มาแรง",
+                              style: TextStyle(
+                                fontSize: 20,
+                                color: Colors.black,
+                                // fontWeight: FontWeight.bold,
+                              ),
+                            ),
+                          ],
                         ),
                       ),
+                      // Padding(
+                      //   padding: const EdgeInsets.only(top: 10, right: 250.0),
+                      //   child: Text(
+                      //     "ร้านใหม่มาแรง",
+                      //     style: TextStyle(
+                      //       fontSize: 20,
+                      //       color: Colors.black,
+                      //       // fontWeight: FontWeight.bold,
+                      //     ),
+                      //   ),
+                      // ),
                     ],
                   ),
                 ),
@@ -170,16 +245,31 @@ class _MyHomePageState extends State<MyHomePage> {
                   child: Column(
                     children: <Widget>[
                       Padding(
-                        padding: const EdgeInsets.only(top: 10, right: 285.0),
-                        child: Text(
-                          "ร้านแนะนำ",
-                          style: TextStyle(
-                            fontSize: 20,
-                            color: Colors.black,
-                            // fontWeight: FontWeight.bold,
-                          ),
+                        padding: const EdgeInsets.only(top: 20.0, left: 5.0),
+                        child: Row(
+                          children: [
+                            Text(
+                              "ร้านแนะนำ",
+                              style: TextStyle(
+                                fontSize: 20,
+                                color: Colors.black,
+                                // fontWeight: FontWeight.bold,
+                              ),
+                            ),
+                          ],
                         ),
                       ),
+                      // Padding(
+                      //   padding: const EdgeInsets.only(top: 10, right: 285.0),
+                      //   child: Text(
+                      //     "ร้านแนะนำ",
+                      //     style: TextStyle(
+                      //       fontSize: 20,
+                      //       color: Colors.black,
+                      //       // fontWeight: FontWeight.bold,
+                      //     ),
+                      //   ),
+                      // ),
                     ],
                   ),
                 ),
@@ -202,16 +292,31 @@ class _MyHomePageState extends State<MyHomePage> {
                   child: Column(
                     children: <Widget>[
                       Padding(
-                        padding: const EdgeInsets.only(top: 10, right: 250.0),
-                        child: Text(
-                          "รีวิวจากสมาชิก",
-                          style: TextStyle(
-                            fontSize: 20,
-                            color: Colors.black,
-                            // fontWeight: FontWeight.bold,
-                          ),
+                        padding: const EdgeInsets.only(top: 20.0, left: 5.0),
+                        child: Row(
+                          children: [
+                            Text(
+                              "รีวิวจากสมาชิก",
+                              style: TextStyle(
+                                fontSize: 20,
+                                color: Colors.black,
+                                // fontWeight: FontWeight.bold,
+                              ),
+                            ),
+                          ],
                         ),
                       ),
+                      // Padding(
+                      //   padding: const EdgeInsets.only(top: 10, right: 250.0),
+                      //   child: Text(
+                      //     "รีวิวจากสมาชิก",
+                      //     style: TextStyle(
+                      //       fontSize: 20,
+                      //       color: Colors.black,
+                      //       // fontWeight: FontWeight.bold,
+                      //     ),
+                      //   ),
+                      // ),
                     ],
                   ),
                 ),
@@ -224,22 +329,37 @@ class _MyHomePageState extends State<MyHomePage> {
                   child: Column(
                     children: <Widget>[
                       Padding(
-                        padding: const EdgeInsets.only(top: 10, right: 255.0),
-                        child: Text(
-                          "แบรนด์แนะนำ",
-                          style: TextStyle(
-                            fontSize: 20,
-                            color: Colors.black,
-                            // fontWeight: FontWeight.bold,
-                          ),
+                        padding: const EdgeInsets.only(top: 20.0, left: 5.0),
+                        child: Row(
+                          children: [
+                            Text(
+                              "แบรนด์แนะนำ",
+                              style: TextStyle(
+                                fontSize: 20,
+                                color: Colors.black,
+                                // fontWeight: FontWeight.bold,
+                              ),
+                            ),
+                          ],
                         ),
                       ),
+                      // Padding(
+                      //   padding: const EdgeInsets.only(top: 10, right: 255.0),
+                      //   child: Text(
+                      //     "แบรนด์แนะนำ",
+                      //     style: TextStyle(
+                      //       fontSize: 20,
+                      //       color: Colors.black,
+                      //       // fontWeight: FontWeight.bold,
+                      //     ),
+                      //   ),
+                      // ),
                     ],
                   ),
                 ),
               ),
               BrandPage(),
-              Test(),
+              // Test(),
               Container(
                 height: 200,
               ),

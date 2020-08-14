@@ -1,7 +1,9 @@
-import 'package:CustomerFlutterapp/component/HomeMainPage/MainMome.dart';
+import 'package:CustomerFlutterapp/component/HomeMainPage/MainHome.dart';
+import 'package:CustomerFlutterapp/locator.dart';
 import 'package:flutter/material.dart';
 
 void main() {
+  setupLocator();
   runApp(MyApp());
 }
 
